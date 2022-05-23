@@ -1,0 +1,25 @@
+body{
+  background-color: #a9bd7e;
+}
+.my_image{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.menu{
+  border: 10px solid transparent;
+  padding: 10px;
+  margin: auto;
+}
+li{
+  padding: 5px;
+}
+
+.flex-container{
+  display: inline-flex;
+}
+
+div{
+  border: 10px solid transparent;
+  flex-direction: row;
+}

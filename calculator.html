@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="menu">
+      <nav>
+        <a href="/about_me.html">About me</a>
+          <a href="/register.html">Register</a>
+          <a href="/login.html">Login</a>
+          <a href="/calculator.html">Calculator</a>
+
+      </nav>
+    </div>
+    <h1>Calculator</h1>
+      <div id="calcContainer">
+        <form name="calculator">
+      
+      <!-- top row -->
+          <div class="result-clear">
+      
+         <!-- Display -->
+            <input type="text" class="result" name="answer" readonly />
+         
+        <!-- Clear Button -->
+            <input type="button" class="clear" value=" AC " onclick="calculator.answer.value = ''" />
+          </div>
+      
+      <!-- All input button -->
+          <div class="grid-buttons">
+        <!-- 2nd row -->
+            <input type="button" value="9" />
+            <input type="button" value="8" />
+            <input type="button" value="7"/>
+            <input type="button" value="+" />
+            <br />
+        <!-- 3rd row -->
+            <input type="button" value="4" />
+            <input type="button" value="5" />
+            <input type="button" value="6" />
+            <input type="button" value="&minus;" />
+            <br />
+       <!-- 4th row -->
+            <input type="button" value="1" />
+            <input type="button" value="2" />
+            <input type="button" value="3" />
+            <input type="button" value="&#247;" />
+            <br />
+      <!-- 5th row -->
+            <input type="button" value="."  />
+            <input type="button" value="0"  />
+            <input type="button" value="="  />
+            <input type="button" value="&#215;" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="about.css">
+  <title>About Me</title>
+</head>
+<body>
+    <div class="menu">
+      <nav>
+        <a href="/about_me.html">About me</a>
+          <a href="/register.html">Register</a>
+          <a href="/login.html">Login</a>
+          <a href="/calculator.html">Calculator</a>
+      </nav>
+    </div>
+
+  <section class="flex-container">
+  <div>
+    <h1>Hello, my name is <em>Mahbub Bello</em></h1>
+  <img src="mahbub.jpg" alt="my image" class="my_image">
+  <p>I am an alt-school student in the backend track. I love the backend because frontend stuff scares me and I do not enjoy it. However,
+    I am excited to learn how to build simple pages with HTML and CSS. By the end of this diploma, I hope to be able to confidently apply for Software engineering roles and crush their interviews. 
+    So, the next 12 months are very exciting! I studied Chemical engineering from the University of Ilorin. I also have some certificates in Springboot and some others
+    <ul>
+      <li>Reading</li>
+      <li>Watching movies</li>
+      <li>Making friends</li>
+      <li>Being a coconut head</li>
+    </ul>
+   </p>
+   <p>I can be contacted at: </p>
+    <ul>
+      <li><a href="https://twitter.com/mahbub_bello">Twitter</a></li>
+      <li><a href="https://github.com/horyekhunley">Github</a></li>
+      <li><a href="mahbubbello@gmail.com">Email me</a></li>
+    </ul>
+  </p>
+
+  <h3>Contact me</h3>
+    <form action="/about_me.html" method="post">
+      <ul>
+       <li>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" placeholder="Name">
+       </li>
+       <li>
+         <label for="mail">Email:</label>
+         <input type="email" id="mail" name="email" placeholder="Email">
+       </li>
+       <li>
+         <label for="msg">Message:</label>
+         <textarea id="msg" name="message"></textarea>
+       </li>
+       <li>
+        <label for="urgency">Priority:</label>
+        <select>
+           <option value="normal">Normal</option>
+          <option value="urgent">Urgent</option>
+        </select>
+       </li>
+       
+      </ul>
+     </form>
+  </div>
+</section>
+  
+</body>
+</html>

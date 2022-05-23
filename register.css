@@ -1,0 +1,12 @@
+body{
+  background-color: #a9bd7e;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+div{
+  /* margin: auto; */
+  border: 10px solid transparent;
+}
